@@ -376,6 +376,7 @@ checksums:
     done: ffd408fa29d5bc9039ef8ea1b9b699bb
     all_done: e5f82091c03fcd91d6472bca5b96165a
     all: 5e2e93f8e2a5f315b6fecdd0a0e6f55f
+    any: f4a3b0cdb2feb013c8c313d291504a8e
     yours: eeb51a501bfcd2ac61a01639c1810a0a
     available_apps: 6d722c3370d98620acce31eb6c6c310b
     available_apps_lower_case: bdc6d9add2c4aadff6367146844ab26b
@@ -666,6 +667,22 @@ checksums:
     invalid_password_hint: c7e77398d88e52f2eeaf7321ae984c61
     incorrect_password: 71e55653ad6069e798a0fcba04235028
     incorrect_email_password: 2c027506af9e937c7338e70f5ae39b0b
+    compliance: 8c769b66f33999ac37075e110344bf70
+    compliance_description: 0940533d822b4f7958970566bb30d3b4
+    data_privacy: 30d4013bc5bf3b72a03c40a121d46eb6
+    data_protection_agreement: 7178a6ca401e0bcd8a06098007c34c7c
+    dpa_description: c19876d477e5842f9b8f8c1c9582d04b
+    compliance_reports: 16da82380e958628558f8c4a34a0f460
+    soc2_report: b0bbed3d3bd58c8c0a7348a1b03ec251
+    soc2_report_description: 43d6e811265afec955fe00b5a6f520aa
+    iso27001_certification: 1e28dcd06f21aa8a96b6e5354f5dee1c
+    iso27001_description: 08c50e79e1e184a54dfd9a50c3db2141
+    other_documents: 14af85ca1d3933b9c5ce910436bb68e9
+    pentest_report: fe6cb5d4c2120db3c4975eb539b05b47
+    pentest_report_description: 4d5f423c4bdf60081ec43959568d8642
+    organizations_plan: bd50dd0b17bd74a72b728a8385b5ee28
+    upgrade_to_access: 297c150434b97578ff939a1d10ee3888
+    compliance_upgrade_tooltip: 4138ebda43c54fbcf4a09b457e3d08a6
     use_setting: 17f4d0e75b86bcdbf9f1efec8ce16869
     am_pm: 850c2297a006fc072c94ed6c1b9e46ce
     time_options: 9929d48aeafcbef6f3341f7daaf9020a
@@ -3097,6 +3114,47 @@ checksums:
     back_to_attributes: e24d63588f5ca9d67a3ac1257954894b
     delete_attribute: e905cccc987b60a53375dbb9c1300403
     delete_attribute_description: 788b30226961c5059a3a3ffd41cf2b55
+    attribute_sync: f614bd675a8da205e35bd8f2cfe1f9b2
+    attribute_sync_description: 235b0fb13f0697a6d198c7ab118fe213
+    attribute_sync_new_integration_sync: f3948090ba58893baa9402e18e6e7a2f
+    attribute_sync_credential: 34452cf286664e080db87d8d3dd29e5c
+    attribute_sync_credential_required: 2ae6cea039856c6a53bd330f11df953a
+    attribute_sync_credential_validation: 07d17f824348d79a1254aa1f33098252
+    attribute_sync_select_credential: 5f01ec1dd480479d4580aca446add1b4
+    attribute_sync_credential_description: ee9d8bea2677e4f1680d6c5feb958955
+    attribute_sync_user_filter_rules: b87dfa7bb571136444bb5fdb193b8dd7
+    attribute_sync_user_filter_rules_description: 299d1065d413a371b5c96d278dd8f9d8
+    attribute_sync_field_mappings: 219f5972ec0093d41c7c11598a85b07a
+    attribute_sync_duplicate_field_mapping: 53b3b180d935c6a14abbd9e64dd7ca9e
+    attribute_sync_duplicate_attribute_mapping: 74d2131c255ea023836f9c874279641c
+    attribute_sync_field_mappings_description: 38abfd40bdc628acda4bbb54a8270d92
+    attribute_sync_created_successfully: 4a79126faccd9d1a7770a43b2adc0d71
+    attribute_sync_updated_successfully: 560d1ff37fbf83eb77e7272cb0d38590
+    attribute_sync_deleted_successfully: e593f821f22d36306972701375a58358
+    attribute_sync_delete_title: c7ada75ac2791fd351b3164d3d6e405d
+    attribute_sync_delete_confirmation: dd7aa0dfb9c51a8c921d409d8a0fd140
+    attribute_sync_no_mappings: 0cad2d170c1334afcc0622aa09795439
+    attribute_sync_add_mapping: cb69c1ad08f73392acebd8e6abbc632e
+    attribute_sync_field_placeholder: ca697ff1ef46ed8cf1802468d07c2c41
+    attribute_sync_select_attribute: a02b5fdf72ee9f7328de22f69d322abb
+    attribute_sync_add_new: cfacb3b129cb4882ac44478f7fa84b11
+    attribute_sync_select_teams: 63a7a76327bce8de3561be66590b5abe
+    attribute_sync_select_attribute_first: 5e8b75fa13b9dab67f0823510f765dff
+    attribute_sync_select_values: 4d20571edecefe4614ca58952000050b
+    attribute_sync_enter_text_value: 7fb8f2e72e4e9688b2aa1a047d83864c
+    attribute_sync_enter_number_value: 6d761ac98511f1cf6c49eaab93d6aed9
+    attribute_sync_sync_users_where: da2076967fb7b1781b4ed493a9f5c773
+    attribute_sync_conditions_match: dad90f98852cda277134a066d890d1e9
+    attribute_sync_no_conditions: 5d232951d0780a8f3bda35f1989f7ace
+    attribute_sync_add_condition: 4de5e43cd5e98efde6fa3b66ac4bdb71
+    attribute_sync_operator_is_any_of: 692ceecb91b61066de37aa869014e7b6
+    attribute_sync_operator_is_not_any_of: ed7b06e7c05f83fdc22cda5faa69a37e
+    attribute_sync_operator_is: 6e18221b26a14df86537e89f50dcec16
+    attribute_sync_operator_is_not: a59746bb7a7590c4dc5e57092a5fc138
+    attribute_sync_operator_includes_any_of: 2ccf004e7658b97d703386cbc1e1d94f
+    attribute_sync_operator_does_not_include: 561a6b7dfdf0d3ec50290e5c92c7b4da
+    attribute_sync_operator_equals: 264ec282f7f5b67da622cc37f2b57b8a
+    attribute_sync_operator_not_equals: 427715f1ea349965c36f5c628784eb08
     disable_all_emails_to_attendees: 24bc6312936873e97d542c8981390564
     disable_all_emails_description: ba759c96b0c7dfd294283b389dbd13de
     disable_all_emails_to_hosts: 019284dc00772b33b7100dd460ed37b4
